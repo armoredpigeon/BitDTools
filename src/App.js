@@ -1,6 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
-import GetNPC from './options';
+import logo from "./logo.svg";
+import "./App.css";
+import GetNPC from "./options";
 import styled from "styled-components";
 
 const OverallDiv = styled.div`
@@ -24,14 +24,13 @@ const TopRow = styled.span`
   font-weight: bold;
 `;
 
-const BottomRow = styled.span`
-  
-`;
+const BottomRow = styled.span``;
 
 function App() {
   let NPC = GetNPC();
   return (
     <div className="App">
+      <></>
       <OverallDiv>
         <ResultsDiv>
           <TopRow>fullName</TopRow>
